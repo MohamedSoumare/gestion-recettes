@@ -6,6 +6,7 @@
   </template>
   
   <script setup>
+
   import { useRoute, useRouter } from 'vue-router';
   import { useRecipeStore } from '../store/recipeStore';
   import RecipeForm from '../recettes/RecipeForm.vue';
@@ -20,4 +21,4 @@
     router.push('/');
   }
   </script>
-  
+

@@ -10,7 +10,7 @@
           Modifier
         </router-link>
         <router-link :to="{ name: 'recipe-list' }" class="btn btn-lg btn-outline-primary">
-          Retour à la liste
+          Retour
         </router-link>
       </div>
     </div>
