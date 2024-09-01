@@ -28,9 +28,11 @@
                 <router-link :to="{ name: 'recipe-details', params: { id: recipe.id } }" class="btn btn-sm btn-primary me-2">
                   <font-awesome-icon icon="eye" />
                 </router-link>
+
                 <router-link :to="{ name: 'recipe-edit', params: { id: recipe.id } }" class="btn btn-sm btn-secondary me-2">
                   <font-awesome-icon icon="edit" />
                 </router-link>
+                
                 <button @click="deleteRecipe(recipe.id)" class="btn btn-sm btn-outline-danger">
                   <font-awesome-icon icon="trash" />
                 </button>

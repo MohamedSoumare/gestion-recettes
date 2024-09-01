@@ -18,7 +18,7 @@
         <div class="col-md-4">
           <h3>Ajouter des recettes</h3>
           <p>
-            Ajoutez facilement de nouvelles recettes en spécifiant le titre, les ingrédients et le type de recette (entrée, plat, dessert, etc.).
+            Ajoutez facilement de nouvelles recettes en spécifiant le titre, les ingrédients et le type de recette (entrée, plat, dessert).
           </p>
         </div>
         <div class="col-md-4">
