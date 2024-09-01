@@ -90,11 +90,8 @@
   .form-label {
     color: #6c757d;
   }
+
   
-  .form-control:focus {
-    border-color: #80bdff;
-    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
-  }
   
 
   .btn-primary {

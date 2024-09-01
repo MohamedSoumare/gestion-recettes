@@ -1,7 +1,7 @@
 <template>
     <div class="container m-auto w-50">
           <h1 class="mt-3 text-center text-primary">Ajouter une recette</h1>
-      <RecipeForm @submit="onSubmit" />
+         <RecipeForm @submit="onSubmit" />
     </div>
   </template>
   
