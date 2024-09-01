@@ -8,7 +8,7 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item mx-4">
-              <router-link class="nav-link" to="/" active-class="active" exact>Accueil</router-link>
+              <router-link class="nav-link" to="/" active-class="active">Accueil</router-link>
             </li>
             <li class="nav-item mx-4">
               <router-link class="nav-link" to="/about" active-class="active">A propos</router-link>

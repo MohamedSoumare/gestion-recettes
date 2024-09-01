@@ -26,6 +26,7 @@ export const useRecipeStore = defineStore('recipe', {
   }),
   actions: {
     generateUniqueId() {
+      
       // Vérifie si la liste de recettes n'est pas vide
       let newId = this.recipes.length ? Math.max(...this.recipes.map(r => r.id)) + 1 : 1;
 

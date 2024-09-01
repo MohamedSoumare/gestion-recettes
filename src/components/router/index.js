@@ -14,7 +14,6 @@ const routes = [
     { path: "/recipe/:id", name: "recipe-details", component: RecipeDetails, props: true }, 
     { path: "/:pathMatch(.*)*", component: NotFound }
 ];
-
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes
