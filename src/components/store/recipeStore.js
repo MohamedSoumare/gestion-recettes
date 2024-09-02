@@ -29,7 +29,6 @@ export const useRecipeStore = defineStore('recipe', {
       
       // Vérifie si la liste de recettes n'est pas vide
       let newId = this.recipes.length ? Math.max(...this.recipes.map(r => r.id)) + 1 : 1;
-
       // Si la liste est vide, le premier identifiant sera 1
       // Si la liste n'est pas vide, on trouve l'identifiant maximal existant et on ajoute 1
   
@@ -62,4 +61,5 @@ export const useRecipeStore = defineStore('recipe', {
   getters: {
     getRecipeById: (state) => (id) => state.recipes.find(r => r.id === id),
   }
+  
 });
