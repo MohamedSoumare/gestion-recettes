@@ -108,7 +108,7 @@ Pour exécuter l'application dans un conteneur Docker :
    docker run -p 8080:80 med4949/gestion-recettes
    ```
 
-L'application sera accessible à l'adresse `http://localhost:8080`.
+L'application sera accessible à l'adresse : `http://localhost:8080`
 
 ## Contribution
 
