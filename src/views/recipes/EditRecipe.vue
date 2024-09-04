@@ -3,13 +3,13 @@
       <h1 class="mt-3 text-center text-primary">Modifier la recette</h1>
       <RecipeForm :initial-recipe="recipe" @submit="onSubmit" v-if="recipe" />
     </div>
-  </template>
+</template>
   
-  <script setup>
+<script setup>
 
   import { useRoute, useRouter } from 'vue-router';
-  import { useRecipeStore } from '../store/recipeStore';
-  import RecipeForm from '../recettes/RecipeForm.vue';
+  import { useRecipeStore } from '../../store/recipeStore';
+  import RecipeForm from '../recipe-item/RecipeForm.vue';
   
   const route = useRoute();
   const router = useRouter();
@@ -18,7 +18,8 @@
   const recipe = store.getRecipeById(parseInt(route.params.id)); 
   
   const onSubmit = () => {
-    router.push('/');
+    router.push('/list');
   }
-  </script>
+  
+</script>
 

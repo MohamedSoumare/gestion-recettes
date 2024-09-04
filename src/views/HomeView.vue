@@ -13,27 +13,7 @@
         </p>
         <router-link class="btn btn-primary btn-lg mt-3" to="/add" role="button">Commencez à ajouter vos recettes</router-link>
       </div>
-  
-      <div class="row mt-5">
-        <div class="col-md-4">
-          <h3>Ajouter des recettes</h3>
-          <p>
-            Ajoutez facilement de nouvelles recettes en spécifiant le titre, les ingrédients et le type de recette (entrée, plat, dessert).
-          </p>
-        </div>
-        <div class="col-md-4">
-          <h3>Modifier des recettes</h3>
-          <p>
-            Modifiez vos recettes existantes pour les améliorer ou mettre à jour les informations à tout moment.
-          </p>
-        </div>
-        <div class="col-md-4">
-          <h3>Supprimer des recettes</h3>
-          <p>
-            Supprimez les recettes que vous n'utilisez plus pour garder votre collection organisée.
-          </p>
-        </div>
-      </div>
+
   
       <div class="row mt-5">
         <div class="col-md-12 text-center">

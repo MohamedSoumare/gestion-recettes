@@ -3,15 +3,16 @@
           <h1 class="mt-3 text-center text-primary">Ajouter une recette</h1>
          <RecipeForm @submit="onSubmit" />
     </div>
-  </template>
+</template>
   
-  <script setup>
+<script setup>
   import { useRouter } from 'vue-router'
-  import RecipeForm from '../recettes/RecipeForm.vue'
+  import RecipeForm from '../recipe-item/RecipeForm.vue'
   
   const router = useRouter()
   
   const onSubmit = () => {
     router.push('/list')
-  }
-  </script>
+}
+
+</script>

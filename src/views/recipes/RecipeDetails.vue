@@ -1,7 +1,7 @@
 <template>
   <div class="recipe-details-container d-flex flex-column align-items-center min-vh-100 p-4">
     <div class="recipe-card bg-white shadow-lg rounded p-5 w-100">
-      <h1 class="text-center text-primary mb-4">{{ recipe.title }}</h1>
+      <h1 class="text-center text-primary mb-4"><strong>Titre :</strong>{{ recipe.title }}</h1>
       <p class="lead"><strong>Ingrédients :</strong> {{ recipe.ingredients }}</p>
       <p class="lead"><strong>Type :</strong> {{ recipe.type }}</p>
       
@@ -19,7 +19,7 @@
 
 <script setup>
 import { useRoute } from 'vue-router';
-import { useRecipeStore } from '../store/recipeStore';
+import { useRecipeStore } from '../../store/recipeStore';
 
 const route = useRoute();
 const store = useRecipeStore();
